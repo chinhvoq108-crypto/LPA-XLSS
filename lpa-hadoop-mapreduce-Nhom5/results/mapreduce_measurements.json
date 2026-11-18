@@ -1,0 +1,145 @@
+{
+  "runs_per_size": 3,
+  "max_iterations": 20,
+  "reducers": 2,
+  "records": [
+    {
+      "nodes": 1000,
+      "edges": 6000,
+      "iterations": 11,
+      "times_seconds": [
+        229.894,
+        228.48,
+        228.789
+      ],
+      "mean_seconds": 229.05433333333332,
+      "min_seconds": 228.48,
+      "max_seconds": 229.894,
+      "sample_std_seconds": 0.7434045556312843,
+      "range_seconds": 1.4140000000000157,
+      "cv_percent": 0.3245538055590672
+    },
+    {
+      "nodes": 5000,
+      "edges": 30000,
+      "iterations": 16,
+      "times_seconds": [
+        334.359,
+        334.959,
+        334.956
+      ],
+      "mean_seconds": 334.758,
+      "min_seconds": 334.359,
+      "max_seconds": 334.959,
+      "sample_std_seconds": 0.3455473918292712,
+      "range_seconds": 0.6000000000000227,
+      "cv_percent": 0.10322304226613589
+    },
+    {
+      "nodes": 10000,
+      "edges": 60000,
+      "iterations": 15,
+      "times_seconds": [
+        326.2,
+        323.108,
+        315.778
+      ],
+      "mean_seconds": 321.69533333333334,
+      "min_seconds": 315.778,
+      "max_seconds": 326.2,
+      "sample_std_seconds": 5.352685431942846,
+      "range_seconds": 10.421999999999969,
+      "cv_percent": 1.6638989992424031
+    },
+    {
+      "nodes": 20000,
+      "edges": 120000,
+      "iterations": 11,
+      "times_seconds": [
+        229.628,
+        230.067,
+        267.04
+      ],
+      "mean_seconds": 242.245,
+      "min_seconds": 229.628,
+      "max_seconds": 267.04,
+      "sample_std_seconds": 21.474221732114078,
+      "range_seconds": 37.412000000000035,
+      "cv_percent": 8.864670780455358
+    }
+  ],
+  "sources": [
+    {
+      "uploaded_filename": "run1.csv",
+      "packaged_filename": "graph1000_run1.csv",
+      "nodes": 1000,
+      "run": 1
+    },
+    {
+      "uploaded_filename": "run2.csv",
+      "packaged_filename": "graph1000_run2.csv",
+      "nodes": 1000,
+      "run": 2
+    },
+    {
+      "uploaded_filename": "run3.csv",
+      "packaged_filename": "graph1000_run3.csv",
+      "nodes": 1000,
+      "run": 3
+    },
+    {
+      "uploaded_filename": "graph5000_run1.csv",
+      "packaged_filename": "graph5000_run1.csv",
+      "nodes": 5000,
+      "run": 1
+    },
+    {
+      "uploaded_filename": "graph5000_run2.csv",
+      "packaged_filename": "graph5000_run2.csv",
+      "nodes": 5000,
+      "run": 2
+    },
+    {
+      "uploaded_filename": "graph5000_run3.csv",
+      "packaged_filename": "graph5000_run3.csv",
+      "nodes": 5000,
+      "run": 3
+    },
+    {
+      "uploaded_filename": "graph10000_run1.csv",
+      "packaged_filename": "graph10000_run1.csv",
+      "nodes": 10000,
+      "run": 1
+    },
+    {
+      "uploaded_filename": "graph10000_run2.csv",
+      "packaged_filename": "graph10000_run2.csv",
+      "nodes": 10000,
+      "run": 2
+    },
+    {
+      "uploaded_filename": "graph10000_run3.csv",
+      "packaged_filename": "graph10000_run3.csv",
+      "nodes": 10000,
+      "run": 3
+    },
+    {
+      "uploaded_filename": "graph20000_run1.csv",
+      "packaged_filename": "graph20000_run1.csv",
+      "nodes": 20000,
+      "run": 1
+    },
+    {
+      "uploaded_filename": "graph20000_run2.csv",
+      "packaged_filename": "graph20000_run2.csv",
+      "nodes": 20000,
+      "run": 2
+    },
+    {
+      "uploaded_filename": "graph20000_run3.csv",
+      "packaged_filename": "graph20000_run3.csv",
+      "nodes": 20000,
+      "run": 3
+    }
+  ]
+}

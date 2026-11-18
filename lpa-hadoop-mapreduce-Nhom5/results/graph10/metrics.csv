@@ -1,0 +1,4 @@
+iteration,nodes,edges,changed,job_seconds,total_seconds,reason
+1,10,21,10,18.162,18.201,RUNNING
+2,10,21,2,21.308,39.510,RUNNING
+3,10,21,0,21.297,60.808,CONVERGED
